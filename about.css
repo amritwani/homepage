@@ -8,7 +8,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background:#333;
+    
 }
 
 body{
@@ -62,53 +62,6 @@ body{
 
 .nav-bar li:last-child{
     border-right: none;
-}
-
-.gallery{
-    min-height: 100vh;
-}
-
-.gallery h1{
-    color: #f8f9f9;
-    text-align: center;
-}
-
-.gallery h1 span{
-    color: yellowgreen;
-    text-align: center;
-
-}
-
-.image-container{
-    margin: 0 auto;
-    width: 80%;
-    box-shadow: 0 15px 30px rgba(0,0,0,.3), 0 11px 8px rgba(0,0,0,.22);
-    margin-bottom: 20px;
-    transition-duration: 1s;
-
-}
-
-.image-container:hover{
-    width: 90%;
-    box-shadow: 0 15px 36px rgba(0,0,0,.3), 0 11px 8px rgba(0,0,0,.3), 0 14px 11px rgba(0,0,0,.22);
-
-}
-
-img{
-    width: 100%;
-    height: auto;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.image-p{
-   padding: 0 15px 15px 15px;
-   text-align: center;
-   font-size: 1.2rem;
-   color: #f8f9f9;
-}
-.head h1{
-    margin-top: 0px;
 }
 
 footer{
@@ -171,5 +124,45 @@ footer{
 }
 
 
+.head h1{
+    margin-top: 0px;
+}
 
 
+
+.about-head h2{
+    font-size: 2rem;
+    text-align: center;
+    border: 4px groove;
+    margin: 1rem 30%;
+    padding: 10px;
+    border-radius: 15px;
+    background: #173459;
+    color: #fff;
+
+}
+
+
+.about{
+    color:#111;
+    margin: 0px 1em;
+    background-color: #173459;
+    border: 3px groove black;
+    border-radius: 19px;
+
+}
+
+.about .content{
+    margin: 2px 1.3rem;
+    color: #fff;
+}
+
+
+.youtube-c{
+text-align: center;
+margin: 5px 0;
+background: #666;
+border: 1px solid;
+margin: 5px 1.3rem;
+border-radius: 15px;
+}
