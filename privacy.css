@@ -127,43 +127,54 @@ footer{
 
 .head h1{
     margin-top: 0px;
+    color: red;
 }
 
-
-
-.about-head h2{
-    font-size: 2rem;
-    text-align: center;
-    border: 4px groove;
-    margin: 1rem 30%;
-    padding: 10px;
-    border-radius: 10px 50px;
+.about-head{
     background: #173459;
-    color: #fff;
-
+    text-align: center;
+    border: 3px groove white;
+    width: 50%;
+    margin: 1rem 25%;
+    border-radius: 10px 50px;
+    color: white;
 }
 
-
-.about{
-    color:#111;
-    margin: 0px 1em;
-    background-color: #173459;
-    border: 3px groove black;
-    border-radius: 19px;
-
+h3{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
 }
 
-.about .content{
-    margin: 2px 1.3rem;
-    color: #fff;
+.div1{
+    background:orange;
 }
 
+.div2{
+    background:blue;
+}
 
-.youtube-c{
-text-align: center;
-margin: 5px 0;
-background: #666;
-border: 1px solid;
-margin: 5px 1.3rem;
-border-radius: 15px;
+.div3{
+    background:violet;
+}
+
+.div4{
+    background:green;
+}
+
+.div5{
+    background:black;
+}
+
+p{
+    padding: 0 20px;
+}
+p{
+    margin-bottom: 1rem;
 }
