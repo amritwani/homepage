@@ -78,8 +78,8 @@ body{
 
 .home .leatest{
 margin-top: 0px;
-margin-left: 50px;
-margin-right: 50px;
+
+
 }
 
 .home .leatest h1{
@@ -96,21 +96,19 @@ margin-right: 50px;
 
 .home .leatest {
     background: #fff;
-    padding: 8px;
-    border: 1px solid lightseagreen;
-    border-radius: 8px;
- 
+    padding: 5px;
+
 }
 
 .home .leatest ul li{
-    font-size: 30px;
+    font-size: 20px;
     margin-top:20px ;
 
 
 }
 
 .home .leatest ul li a{
-    font-size: 20px
+    font-size: 17px
     
 }
 
@@ -128,8 +126,7 @@ margin-right: 50px;
 
 .home .admit{
     margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+
     }
     
     .home .admit h1{
@@ -145,21 +142,20 @@ margin-right: 50px;
     
     .home .admit {
         background: #fff;
-        padding: 8px;
-        border: 1px solid lightseagreen;
-        border-radius: 8px;
+        padding: 5px;
+
      
     }
     
     .home .admit ul li{
-        font-size: 30px;
+        font-size: 20px;
         margin-top:20px ;
         
     
     }
     
     .home .admit ul li a{
-        font-size: 20px
+        font-size: 17px
         
     }
     
@@ -181,7 +177,7 @@ margin-right: 50px;
 
 
     .home .result{
-        margin: 30px 50px;
+        margin: 30px 0px;
 
         }
         
@@ -199,20 +195,17 @@ margin-right: 50px;
         .home .result {
             background: #fff;
             padding: 8px;
-            border: 1px solid lightseagreen;
-            border-radius: 8px;
-         
         }
         
         .home .result ul li{
-            font-size: 30px;
+            font-size: 20px;
             margin-top:20px ;
 
         
         }
         
         .home .result ul li a{
-            font-size: 20px
+            font-size: 17px
             
         }
         
@@ -232,28 +225,28 @@ margin-right: 50px;
             background: violet;
             margin-bottom: 10px;
             border-radius: 0px 0px 20px 20px;
-            box-shadow: 0 .3rem .5rem rgba(0,0,0,.5);
+            text-shadow: 0 .3rem .5rem rgba(19, 0, 0, 0.9);
             
         }
 
         .head img{
-        height: 90px;
-        width: 90px;
-        margin: 60px
+        height: 50px;
+        width: 50px;
+        margin: 60px 10px;
         }
         .head img{
             border: 3px solid white;
             border-radius: 50%;
-            padding: 4px;
-            text-align: center;
-            align-items: center;
+            padding: 0px;
+         
        
         }
 
         .head h1{
-            margin-top: 90px;
-            font-size: 2rem;
+            margin-top: 70px;
+            font-size: 1.8rem;
             text-align: center;
+            color: lightseagreen;
         
         }
 
