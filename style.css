@@ -134,4 +134,64 @@ body{
 
 .footer .credit span{
     color: var(--main-color);
+} 
+
+
+/*home section*/
+
+.home-container{
+        background: pink;
+
+}
+
+.home-container .home{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container .home form{
+    background-color: var(--white);
+    width: 50rem;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem;
+    box-shadow: var(--box-shadow);
+}
+
+.home-container .home form h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.home-container .home form p{
+    text-align: left;
+    font-size: 1.6rem;
+    outline-color: var(--light-color);
+    padding-top: 1rem;
+}
+
+.home-container .home form span{
+    color: var(--red);
+}
+
+.home-container .home form input{
+    width: 100%;
+    border-radius: .5rem;
+    border: px solid black;
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+
+}
+
+.home-container .home form .btn:hover{
+    letter-spacing: 2px;
+    transition: .5s;
 }
