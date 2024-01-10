@@ -195,3 +195,86 @@ body{
     letter-spacing: 2px;
     transition: .5s;
 }
+
+/*category section*/
+
+.heading{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.category .box-container{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.category .box-container .box{
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2rem;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.category .box-container .box i{
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    text-align: center;
+}
+
+.category .box-container .box h3{
+    font-size: 1.8rem;
+    color: var(--black);
+    padding-bottom: .4rem;
+    text-transform: capitalize;
+}
+
+.category .box-container .box span{
+    color: var(--light-color);
+    font-size: 1.2rem;
+}
+
+.category .box-container .box:hover{
+    background-color:var(--black) ;
+}
+
+.category .box-container .box:hover h3{
+    color: var(--white);
+}
+
+.category .box-container .box:hover span{
+    color: var(--white);
+}
+
+.category .box-container .box:hover i{
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.category .box-container{
+    grid-template-columns: repeat(auto-fit, 16.5rem);
+}
+
+.category .box-container .box{
+    flex-flow: column;
+    text-align: center;
+}
+
+
+
+
+
