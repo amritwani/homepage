@@ -304,37 +304,61 @@ section{
 
 
 
+/* reviews secton */
+.account-form-container {
+    background: var(--black);
+}
 
+.account-form-container .account-form{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.account-form-container .account-form form{
+    background: var(--bg-color);
+    padding: 2rem;
+    box-shadow: var(--box-shad);
+    text-align: center;
 
+}
 
+.account-form-container .account-form form h3{
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
 
+.account-form-container .account-form form .input{
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.4rem;
+    background: var(--bg-color);
+    border: var(--border);
+    margin: 1rem;
+    border-radius: .5rem;
+    color: var(--light-white);
+}
 
+.account-form-container .account-form form p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-white);
+    
 
+}
 
+.account-form-container .account-form form a{
+    font-size: 1.8rem;
+    color: coral;
+    margin-left: 1rem;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.account-form-container .account-form form a:hover{
+    text-decoration: underline;
+}
 
 
 
