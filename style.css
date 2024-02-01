@@ -360,13 +360,78 @@ section{
     text-decoration: underline;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.flex .image{
+    flex: 1 1 40rem;
+}
+
+.flex .image img{
+    width: 100%;
+    height: 50rem;
+    object-fit: contain;
+}
+
+.flex .image .content{
+    flex: 1 1 40rem;
+}
+
+.flex .image .content h3{
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: .5rem;
+}
+
+.flex .image .content p{
+    line-height: 1.8;
+    font-size: 1.6rem;
+    color: var(--light-white);
+    padding: .5rem 0rem ;
+}
+
+.flex .image .content .link{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
 
 
+.flex .image .content .link a{
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    display: flex;
+}
+
+.flex .image .content .link i{
+    margin-right: .5rem;
+}
+
+.flex .image .content .link a:first-child{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.flex .image .content .link a:first-child:hover{
+    background: var(--gradient);
+    color: white;
+}
+
+.flex .image .content .link a:last-child{
+    background-color: var(--bg-color);
+    color: var(--white);
+    border: var(--border);
+}
 
 
-
-
-
+.flex .image .content .link a:last-child:hover{
+    background: var(--gradient);
+    color: white;
+}
 
 
 
