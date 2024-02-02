@@ -24,6 +24,7 @@
     text-transform: capitalize;
     outline: none;
     border: none;
+
 }
 
 html{
@@ -318,7 +319,7 @@ section{
 
 .account-form-container .account-form form{
     background: var(--bg-color);
-    padding: 2rem;
+    padding: 5rem;
     box-shadow: var(--box-shad);
     text-align: center;
 
@@ -365,6 +366,9 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    background-color: var(--bg-color);
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
 .flex .image{
@@ -433,10 +437,49 @@ section{
     color: white;
 }
 
+/* footer secction start */
 
 
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer .grid .box{
+    background-color: var(--bg-color);
+    padding: 2rem;
+}
 
+.footer .grid .box h3{
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-transform: capitalize;
+}
 
+.footer .grid .box a{
+    display:block ;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.footer .grid .box a i{
+    color: coral;
+    margin-right: .5rem;
+}
+
+.footer .grid .box a:hover i{
+    margin-left: .5rem;
+}
+
+.footer .grid .box{
+    justify-content: space-between;
+}
 
 
 
