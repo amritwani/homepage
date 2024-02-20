@@ -84,6 +84,7 @@ section{
     color: var(--white);
     height: 3rem;
     width: 5px;
+    margin-bottom: 2rem;
 }
 
 .header .flex {
@@ -97,6 +98,7 @@ section{
     height: 50px;
     margin-top: 0;
     line-height:1;
+    margin-bottom: 3rem;
 }
 
 .btn{
@@ -163,55 +165,6 @@ section{
     gap: 2rem;
 }
 
-.home .flex .image{
-    flex: 1 1 30rem;
-    position: relative;
-    overflow-x: hidden;
-}
-
-.home .flex .image::before{
-    content: '';
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    height: 30rem;
-    width: 3rem;
-    background: var(--gradient);
-    animation: animate1 4s cubic-bezier(.29,1,.26,1.12) infinite;
-    
-}
-
-
-.home .flex .image::after{
-    content: '';
-    position: absolute;
-    bottom: 0rem;
-    right: 0rem;
-    height: 30rem;
-    width: 3rem;
-    background: var(--gradient);
-    animation: animate2 4s cubic-bezier(.29,1,.26,1.12) infinite;
-    
-}
-
-@keyframes animate1 {
-    0% 100%{
-        transform: translateY(0%);
-    }
-    50%{
-        transform:translateY(100%)
-    }
-}
-
-
-@keyframes animate2 {
-    0% 100%{
-        transform: translateY(0%);
-    }
-    50%{
-        transform:translateY(-100%)
-    }
-}
 
 .home .flex .image img{
     width: 100%;
@@ -235,14 +188,29 @@ section{
     color: var(--light-white);
 }
 
-.services .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 35rem);
-    gap: 1rem;
-    align-items: flex-start;
-    justify-content: center;
-
+.lect-pdf{
+    background-color:var(--bg-color);
 }
+
+ .lect-pdf .lec-pho{
+    display: flex;
+ }
+
+ .lect-pdf .lec-pho .pho{
+    display: flex;
+ }
+
+ .lect-pdf .lec-pho .pho .cont img{
+    width: 100%;
+    padding: 1rem;
+ }
+
+ .lect-pdf .lec-pho .pho .cont .btn{
+    padding: 1rem;
+    align-items: center;
+ }
+
+
 
 
 .services .box-container .box{
