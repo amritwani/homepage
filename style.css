@@ -429,8 +429,7 @@ section{
     align-items: flex-start;
 }
 .footer .grid .box{
-    background-color: var(--bg-color);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .footer .grid .box h3{
@@ -439,6 +438,9 @@ section{
     margin-bottom: 1rem;
     padding: 1rem;
     text-transform: capitalize;
+    border: var(--border);
+    background-color: var(--bg-color);
+    border-radius: .5rem;
 }
 
 .footer .grid .box a{
@@ -463,10 +465,38 @@ section{
 }
 
 
+/* youtube section */
 
 
+.youtube .yout .content{
+   padding: 1rem;
+   border: var(--border);
+   margin: 1rem 0;
+   border-radius: .5rem;
+   background-color: var(--bg-color);
+   overflow-x: hidden;
 
+}
 
+.youtube .yout .content iframe{
+    border-radius: .5rem;
+    border: 2px #fff;
+}
+
+.youtube .yout .content p{
+    color: var(--white);
+    font-size: 2rem;
+    display: flex;
+    padding: 1rem;
+    background: var(--gradient);
+    margin-top: .5rem;
+    border-radius: .5rem;
+}
+
+.youtube .yout .content iframe{
+    border-radius: .5rem;
+    border: 2px solid #fff;
+}
 
 
 
