@@ -514,10 +514,48 @@ section{
 
 
 
+.lect-pdf .pdf-sec .flex-pdf{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont{
+    margin:rem 0rem;
+}
+
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont i{
+    display: block;
+    cursor: pointer;
+
+}
 
 
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont h3{
+    color: var(--white);
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-decoration: underline;
+    
+}
 
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont .contai{
+    margin: 0 1rem;
+}
 
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont .contai i{
+    color: coral;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+.lect-pdf .pdf-sec .flex-pdf .pdf-cont .contai a{
+    color: var(--white);
+    font-size: 1.5rem;
+
+}
 
 
 
