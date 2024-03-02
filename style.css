@@ -158,27 +158,32 @@ section{
     display: none;
 }
 
-.home .flex{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-
-.home .flex .image img{
-    width: 100%;
-}
-
-
 .home .flex .content{
-    flex: 1 1 50rem;
+    display: flex;
+    
+}
+
+.home .flex p{
+    color: coral;
+    font-size: 2rem;
+}
+
+
+
+.home .flex .content .photo img{
+    height: 20rem;
+    width: 15rem;
+    border-radius: .9rem;
+    
 }
 
 .home .flex .content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--white);
-    text-transform: uppercase;
+    padding: 1rem;
+    border: var(--border);
+    margin: 1rem;
+    border-radius: .7rem;
 }
 
 .home .flex .content p{
